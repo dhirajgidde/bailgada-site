@@ -1,0 +1,8 @@
+# the APK is large + rebuilt often — don't commit it to the site repo.
+# Either drop the fresh one in as bailgada.apk and remove this line to commit it,
+# or host it as a GitHub Release and point APK_URL (in index.html) at that link.
+bailgada.apk
+*.apk
+
+.DS_Store
+.vercel/
